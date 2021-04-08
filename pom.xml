@@ -7,6 +7,8 @@
     <artifactId>publish-demo</artifactId>
     <version>1.1.1</version>
     <packaging>jar</packaging>
+    <url>https://github.com/SelfRidicule/publish-demo</url>
+    <name>publish-demo</name>
 
     <description>publish demo</description>
 
@@ -51,6 +53,29 @@
             <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <url>https://github.com/SelfRidicule/publish-demo</url>
+        <connection>https://github.com/SelfRidicule/publish-demo.git</connection>
+        <developerConnection>https://github.com/SelfRidicule/publish-demo.git</developerConnection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>wangqichao</name>
+            <email>SelfRidicule@gmail.com</email>
+            <organization>https://github.com/SelfRidicule</organization>
+            <organizationUrl>https://github.com/SelfRidicule</organizationUrl>
+        </developer>
+    </developers>
+
     <build>
         <plugins>
             <!-- Distribution Management and Authentication -->
