@@ -5,7 +5,7 @@
     <!-- The Basics -->
     <groupId>com.github.selfridicule</groupId>
     <artifactId>publish-demo</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <packaging>jar</packaging>
     <url>https://github.com/SelfRidicule/publish-demo</url>
     <name>publish-demo</name>
